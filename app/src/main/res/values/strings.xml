@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TNote</string>
+
+    <string name="do_not_show_splash">Hide splash</string>
+
+    <string-array name="priority_levels">
+        <item>Low Priority</item>
+        <item>Normal Priority</item>
+        <item>High Priority</item>
+    </string-array>
+
+    <string name="toast_add_task">Task added</string>
+    <string name="toas_cancel_task">Adding task canceled</string>
+
+    <string name="current_task">Current</string>
+    <string name="done_task">Done</string>
+
+    <string name="dialog_editing_title">Editing task</string>
+
+    <string name="dialog_title">Adding task</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_error_empty_title">Please, enter the title</string>
+
+    <string name="dialog_removing_yes">YES</string>
+    <string name="dialog_removing_cancel">Cancel</string>
+    <string name="dialog_removing_message">Delete task?</string>
+    <string name="removed">Task removed</string>
+
+    <string name="task_title">Title</string>
+    <string name="task_date">Date</string>
+    <string name="task_time">Time</string>
+
+    <string name="separator_no_date">NO DATE</string>
+    <string name="separator_overdue">OVERDUE</string>
+    <string name="separator_today">TODAY</string>
+    <string name="separator_tomorrow">TOMORROW</string>
+    <string name="next_seven_days">NEXT 7 DAYS</string>
+    <string name="separator_future">LATER</string>
+
+</resources>

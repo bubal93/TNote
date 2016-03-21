@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="priority_levels">
+        <item>Низкий приоритет</item>
+        <item>Средний приоритет</item>
+        <item>Высокий приоритет</item>
+    </string-array>
+
+    <string name="app_name">TNote</string>
+    <string name="current_task">Текущие</string>
+    <string name="dialog_editing_title">Редактирование задачи</string>
+    <string name="dialog_error_empty_title">Пожалуйста, заполните это поле</string>
+    <string name="dialog_ok">Сохранить</string>
+    <string name="dialog_removing_message">Удалить задачу?</string>
+    <string name="dialog_title">Добавление задачи</string>
+    <string name="do_not_show_splash">Не показывать заставку</string>
+    <string name="done_task">Выполненые</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="next_seven_days">СЛЕДУЮЩИЕ 7 ДНЕЙ</string>
+    <string name="removed">Задача удалена</string>
+    <string name="separator_future">ПОЗЖЕ</string>
+    <string name="separator_no_date">БЕЗ СРОКА</string>
+    <string name="separator_overdue">ПРОСРОЧЕНО</string>
+    <string name="separator_today">СЕГОДНЯ</string>
+    <string name="separator_tomorrow">ЗАВТРА</string>
+    <string name="task_date">Дата</string>
+    <string name="task_time">Время</string>
+    <string name="task_title">Заголовок</string>
+    <string name="dialog_removing_cancel">Отмена</string>
+    <string name="dialog_removing_yes">Да</string>
+    <string name="toas_cancel_task">Добавление отменено</string>
+    <string name="toast_add_task">Задача добавлена</string>
+</resources>
