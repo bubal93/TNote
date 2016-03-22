@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    důležitost
+
+    <string-array name="priority_levels">
+        <item>Nízká důležitost</item>
+        <item>Střední důležitost</item>
+        <item>Vysoká důležitost</item>
+    </string-array>
+
+    <string name="app_name">TNote</string>
+    <string name="current_task">Aktuální</string>
+    <string name="dialog_cancel">Zpět</string>
+    <string name="dialog_removing_cancel">Zpět</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_editing_title">Úprava úkolu</string>
+    <string name="dialog_error_empty_title">Vložte jméno</string>
+    <string name="dialog_removing_message">Smazat úkol?</string>
+    <string name="dialog_removing_yes">Ano</string>
+    <string name="dialog_title">Přidání úkolu</string>
+    <string name="do_not_show_splash">Skrýt splashscreen</string>
+    <string name="done_task">Hotový</string>
+    <string name="next_seven_days">PŘÍŠTÍCH 7 DNÍ</string>
+    <string name="removed">Úkol smazán</string>
+    <string name="separator_future">POZDĚJI</string>
+    <string name="separator_no_date">BEZ DATA</string>
+    <string name="separator_overdue">ZPOŽDĚNÉ</string>
+    <string name="separator_today">DNES</string>
+    <string name="separator_tomorrow">ZÍTRA</string>
+    <string name="task_date">Data</string>
+    <string name="task_time">Čas</string>
+    <string name="task_title">Jméno</string>
+    <string name="toast_add_task">Úkol přidan</string>
+    <string name="toas_cancel_task">Úkol zrušen</string>
+</resources>
