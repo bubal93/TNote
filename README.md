@@ -11,7 +11,7 @@ This is a task manager app with instant search and notifications.
 - Mark tasks as current/completed;
 - You can also create tasks without notification and any specific time/day;
 - Instant search among current/completed tasks;
-- Avaliable in languages: English, Russian;
+- Avaliable in languages: English, Russian, Czech;
 - Compatible with Android 4.0 and higher;
 
 
