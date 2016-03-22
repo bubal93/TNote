@@ -18,7 +18,9 @@ This is a task manager app with instant search and notifications.
 <b>Realisation:</b>
 - Tasks are created and stored in SQLite database. Modifying and sorting made with SQLite queries. Database is updatebale through version changing.
 - App has only one activity, all actions (like adding task, editing, removing, etc.) are made with Fragments.
+- Implemented ads module: it won't hurt user expirience, all components dynamically changes their size to avoid intersection with ads;
 - Main activity have ToolBar with 2 tabs - current tasks and completed.
 - Notifications are implemented with help of Alarm Manager, Broadcast Reciever and Notification Manager.
 - There is a small preference for hiding the splaschscreen. Implemented with help of Shared Preferences.
 - App requires permition to launch itself after devise boot. It's  needed for setting up notifications without launching the app itself.
+- Permitions for internet acces and network status are needed for ads module.
