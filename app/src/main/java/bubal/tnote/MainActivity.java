@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Ads.showBanner(this);
+
         PreferenceHelper.getInstance().init(getApplicationContext());
         preferenceHelper = PreferenceHelper.getInstance();
 
@@ -195,7 +197,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onTaskDone(ModelTask task) {
-        doneTaskFragment.addTask(task,false);
+        doneTaskFragment.addTask(task, false);
     }
 
     @Override
