@@ -69,9 +69,8 @@ public class AddingTaskDialogFragment extends DialogFragment {
         TextInputLayout tilTime = (TextInputLayout) container.findViewById(R.id.tilDialogTaskTime);
         final EditText etTime = tilTime.getEditText();
 
-        //Enables only one line in Title to prevent graphical issues and disables editing via keyboard for Date and Time
-        if (etTitle != null && etDate != null && etTime != null) {
-            etTitle.setSingleLine(true);
+        //Disables editing via keyboard for Date and Time
+        if (etDate != null && etTime != null) {
             etDate.setKeyListener(null);
             etTime.setKeyListener(null);
         }
