@@ -24,3 +24,10 @@ This is a task manager app with instant search and notifications.
 - There is a small preference for hiding the splaschscreen. Implemented with help of Shared Preferences.
 - App requires permition to launch itself after devise boot. It's  needed for setting up notifications without launching the app itself.
 - Permitions for internet acces and network status are needed for ads module.
+
+
+<b>Screenshots:</b>
+
+<img src="https://cloud.githubusercontent.com/assets/17985872/13971800/83640d72-f093-11e5-9e43-53bfa8347562.png" width="288" height="480" />
+<img src="https://cloud.githubusercontent.com/assets/17985872/13971799/836062ee-f093-11e5-8076-03a1eb03eaec.png" width="288" height="480" />
+<img src="https://cloud.githubusercontent.com/assets/17985872/13971798/8360164a-f093-11e5-8021-ac6f7b5d027b.png" width="288" height="480" />
