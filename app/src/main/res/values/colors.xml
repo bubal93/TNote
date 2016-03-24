@@ -12,8 +12,8 @@
     <color name="pri_text_disabled_material_light">#39000000</color>
     <color name="sec_text_disabled_material_light">#24000000</color>
 
-    <color name="priority_high">#E53935</color>
-    <color name="priority_normal">#FDD835</color>
+    <color name="priority_high">#F44336</color>
+    <color name="priority_normal">#FFEE58</color>
     <color name="priority_low">#1E88E5</color>
 
     <color name="priority_high_selected">#E57373</color>
