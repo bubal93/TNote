@@ -20,7 +20,7 @@
     <color name="priority_normal_selected">#FFF176</color>
     <color name="priority_low_selected">#64B5F6</color>
 
-    <color name="grey_50">#FAFAFA</color>
-    <color name="grey_200">#EEEEEE</color>
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_200">#EEEEEE</color>
 
 </resources>

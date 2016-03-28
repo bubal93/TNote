@@ -93,7 +93,7 @@ public class CurrentTasksAdapter extends TaskAdapter {
 
             }
 
-            itemView.setBackgroundColor(resources.getColor(R.color.grey_50));
+            itemView.setBackgroundColor(resources.getColor(R.color.gray_50));
 
             taskViewHolder.title.setTextColor(resources.getColor(R.color.primary_text_material_light));
             taskViewHolder.priority.setColorFilter(resources.getColor(task.getPriorityColor()));

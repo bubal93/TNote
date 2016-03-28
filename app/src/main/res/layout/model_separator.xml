@@ -9,7 +9,7 @@
         android:layout_height="20dp"
         android:gravity="center_vertical"
         android:paddingLeft="16dp"
-        android:background="@color/grey_200"
+        android:background="@color/gray_200"
         android:textColor="@color/secondary_text_material_light"
         android:textSize="13sp" />
 
