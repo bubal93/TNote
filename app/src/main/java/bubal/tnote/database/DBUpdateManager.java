@@ -14,7 +14,7 @@ public class DBUpdateManager {
     }
 
 
-    //The next few methods is needed for updating columns separately
+    //The next few methods are needed for updating columns separately
     public void title(long timeStamp, String title) {
         update(DBHelper.TASK_TITLE_COLUMN, timeStamp, title);
     }
@@ -31,7 +31,7 @@ public class DBUpdateManager {
         update(DBHelper.TASK_STATUS_COLUMN, timeStamp, status);
     }
 
-    //And this one is for updating the whole task table
+    //And this one is for updating the whole tasks table
     public void task(ModelTask task) {
         title(task.getTimeStamp(), task.getTitle());
         date(task.getTimeStamp(), task.getDate());
