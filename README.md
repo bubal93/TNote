@@ -1,7 +1,7 @@
 # TNote
 Source Code of application TNote.
 
-[View app in Play market](https://play.google.com/store/apps/details?id=bubal.tnote&hl)
+[View app in Play market.](https://play.google.com/store/apps/details?id=bubal.tnote&hl)
 
 This is a task manager app with instant search and notifications.
 
