@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity
         CurrentTaskFragment.OnTaskDoneListener, DoneTaskFragment.OnTaskRestoreListener,
         EditTaskDialogFragment.EditingTaskListener {
 
+    private static final int LAYOUT = R.layout.activity_main;
+
+
     FragmentManager fragmentManager;
     PreferenceHelper preferenceHelper;
     TabAdapter tabAdapter;
@@ -47,7 +50,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(LAYOUT);
 
         Ads.showBanner(this);
 

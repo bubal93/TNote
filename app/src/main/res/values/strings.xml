@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TNote</string>
+    <string name="app_name" translatable="false">TNote</string>
 
     <string name="do_not_show_splash">Hide splashscreen</string>
 
@@ -38,6 +38,6 @@
     <string name="next_seven_days">NEXT 7 DAYS</string>
     <string name="separator_future">LATER</string>
 
-    <string name="banner_ad_unit_id">ca-app-pub-1835331358724290/1391765167</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-1835331358724290/1391765167</string>
 
 </resources>

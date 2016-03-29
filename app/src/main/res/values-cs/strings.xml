@@ -8,7 +8,6 @@
         <item>Vysoká důležitost</item>
     </string-array>
 
-    <string name="app_name">TNote</string>
     <string name="current_task">Aktuální</string>
     <string name="dialog_cancel">Zpět</string>
     <string name="dialog_removing_cancel">Zpět</string>
@@ -32,5 +31,4 @@
     <string name="task_title">Jméno</string>
     <string name="toast_add_task">Úkol přidan</string>
     <string name="toas_cancel_task">Úkol zrušen</string>
-    <string name="banner_ad_unit_id">ca-app-pub-1835331358724290/1391765167</string>
 </resources>
