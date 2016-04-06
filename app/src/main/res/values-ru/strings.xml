@@ -29,4 +29,5 @@
     <string name="dialog_removing_yes">Да</string>
     <string name="toas_cancel_task">Добавление отменено</string>
     <string name="toast_add_task">Задача добавлена</string>
+    <string name="action_credits">О приложении</string>
 </resources>

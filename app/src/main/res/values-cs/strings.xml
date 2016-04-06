@@ -31,4 +31,5 @@
     <string name="task_title">Jméno</string>
     <string name="toast_add_task">Úkol přidan</string>
     <string name="toas_cancel_task">Úkol zrušen</string>
+    <string name="action_credits">O aplikaci</string>
 </resources>

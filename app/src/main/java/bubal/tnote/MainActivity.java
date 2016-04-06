@@ -7,6 +7,7 @@ import android.os.PersistableBundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
@@ -65,6 +66,7 @@ public class MainActivity extends AppCompatActivity
 
         runSplash();
 
+
         setUI();
     }
 
@@ -97,12 +99,28 @@ public class MainActivity extends AppCompatActivity
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.action_splash) {
-            item.setChecked(!item.isChecked());
-            preferenceHelper.putBoolean(PreferenceHelper.SPLASH_IS_INVISIBLE, item.isChecked());
-            return true;
+        switch (id){
+            case R.id.action_splash:
+                item.setChecked(!item.isChecked());
+                preferenceHelper.putBoolean(PreferenceHelper.SPLASH_IS_INVISIBLE, item.isChecked());
+                return true;
+            case R.id.action_about:
+                showCredits();
+                return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    protected void showCredits() {
+        // Inflate the about message contents
+        View messageView = getLayoutInflater().inflate(R.layout.dialog_credits, null, false);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setIcon(R.mipmap.ic_launcher);
+        builder.setTitle(R.string.app_name);
+        builder.setView(messageView);
+        builder.create();
+        builder.show();
     }
 
     public void runSplash() {
